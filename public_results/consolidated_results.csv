@@ -1,0 +1,106 @@
+experiment,model,configuration,metric,value,ci95,p_holm,mcnemar_p
+LLM,Qwen3-4B-Instruct-2507,E1,accuracy,0.184,0.150-0.218,,
+LLM,Qwen3-4B-Instruct-2507,E1,macro_f1,0.161111487075374,,,
+LLM,Qwen3-4B-Instruct-2507,E2,accuracy,0.54,0.496-0.582,,
+LLM,Qwen3-4B-Instruct-2507,E2,macro_f1,0.46694955209806693,,,
+LLM,Qwen3-4B-Instruct-2507,E3/umls,accuracy,0.136,0.106-0.166,,
+LLM,Qwen3-4B-Instruct-2507,E3/umls,macro_f1,0.10668651756133307,,,
+LLM,Qwen3-4B-Instruct-2507,C3/umls,accuracy,0.138,0.108-0.170,,
+LLM,Qwen3-4B-Instruct-2507,C3/umls,macro_f1,0.10872452961234601,,,
+LLM,Qwen3-4B-Instruct-2507,E4/umls,accuracy,0.532,0.486-0.576,,
+LLM,Qwen3-4B-Instruct-2507,E4/umls,macro_f1,0.45643798889192083,,,
+LLM,Qwen3-4B-Instruct-2507,C4/umls,accuracy,0.532,0.486-0.574,,
+LLM,Qwen3-4B-Instruct-2507,C4/umls,macro_f1,0.46177988132801495,,,
+LLM,Qwen3-4B-Instruct-2507,E3/primekg,accuracy,0.152,0.120-0.186,,
+LLM,Qwen3-4B-Instruct-2507,E3/primekg,macro_f1,0.12615305629583093,,,
+LLM,Qwen3-4B-Instruct-2507,C3/primekg,accuracy,0.15,0.118-0.182,,
+LLM,Qwen3-4B-Instruct-2507,C3/primekg,macro_f1,0.12425836214397024,,,
+LLM,Qwen3-4B-Instruct-2507,E4/primekg,accuracy,0.544,0.502-0.586,,
+LLM,Qwen3-4B-Instruct-2507,E4/primekg,macro_f1,0.46842543077837195,,,
+LLM,Qwen3-4B-Instruct-2507,C4/primekg,accuracy,0.534,0.490-0.576,,
+LLM,Qwen3-4B-Instruct-2507,C4/primekg,macro_f1,0.45751250079828537,,,
+LLM comparison,Qwen3-4B-Instruct-2507,Abstract benefit: E1 -> E2,accuracy difference,0.356,+0.306 to +0.406,,3.0106096915721217e-36
+LLM comparison,Qwen3-4B-Instruct-2507,UMLS facts without abstract: E1 -> E3,accuracy difference,-0.048,-0.070 to -0.026,0.00015423260629177094,3.8558151572942734e-05
+LLM comparison,Qwen3-4B-Instruct-2507,UMLS relevant vs control: C3 -> E3,accuracy difference,-0.002,-0.010 to +0.006,1.0,1.0
+LLM comparison,Qwen3-4B-Instruct-2507,UMLS facts with abstract: E2 -> E4,accuracy difference,-0.008,-0.024 to +0.008,1.0,0.454498291015625
+LLM comparison,Qwen3-4B-Instruct-2507,UMLS relevant vs control: C4 -> E4,accuracy difference,0.0,-0.014 to +0.016,1.0,1.0
+LLM comparison,Qwen3-4B-Instruct-2507,PrimeKG facts without abstract: E1 -> E3,accuracy difference,-0.032,-0.050 to -0.014,0.003421783447265625,0.0008554458618164062
+LLM comparison,Qwen3-4B-Instruct-2507,PrimeKG relevant vs control: C3 -> E3,accuracy difference,0.002,-0.004 to +0.008,1.0,1.0
+LLM comparison,Qwen3-4B-Instruct-2507,PrimeKG facts with abstract: E2 -> E4,accuracy difference,0.004,-0.014 to +0.022,1.0,0.8238029479980469
+LLM comparison,Qwen3-4B-Instruct-2507,PrimeKG relevant vs control: C4 -> E4,accuracy difference,0.01,-0.002 to +0.022,0.6796875,0.2265625
+LLM comparison,Qwen3-4B-Instruct-2507,UMLS vs PrimeKG: E3,accuracy difference,-0.016,-0.030 to -0.002,0.154296875,0.03857421875
+LLM comparison,Qwen3-4B-Instruct-2507,UMLS vs PrimeKG: C3,accuracy difference,-0.012,-0.030 to +0.004,0.7895278930664062,0.26317596435546875
+LLM comparison,Qwen3-4B-Instruct-2507,UMLS vs PrimeKG: E4,accuracy difference,-0.012,-0.030 to +0.006,0.7895278930664062,0.26317596435546875
+LLM comparison,Qwen3-4B-Instruct-2507,UMLS vs PrimeKG: C4,accuracy difference,-0.002,-0.018 to +0.014,1.0,1.0
+LLM,Phi-4-mini-instruct,E1,accuracy,0.16,0.130-0.194,,
+LLM,Phi-4-mini-instruct,E1,macro_f1,0.13342450066856823,,,
+LLM,Phi-4-mini-instruct,E2,accuracy,0.454,0.412-0.498,,
+LLM,Phi-4-mini-instruct,E2,macro_f1,0.41796275169833286,,,
+LLM,Phi-4-mini-instruct,E3/umls,accuracy,0.142,0.112-0.174,,
+LLM,Phi-4-mini-instruct,E3/umls,macro_f1,0.11217876535795612,,,
+LLM,Phi-4-mini-instruct,C3/umls,accuracy,0.142,0.112-0.174,,
+LLM,Phi-4-mini-instruct,C3/umls,macro_f1,0.11459473458416403,,,
+LLM,Phi-4-mini-instruct,E4/umls,accuracy,0.46,0.418-0.504,,
+LLM,Phi-4-mini-instruct,E4/umls,macro_f1,0.4175770940715943,,,
+LLM,Phi-4-mini-instruct,C4/umls,accuracy,0.47,0.428-0.514,,
+LLM,Phi-4-mini-instruct,C4/umls,macro_f1,0.4275855799698716,,,
+LLM,Phi-4-mini-instruct,E3/primekg,accuracy,0.14,0.110-0.172,,
+LLM,Phi-4-mini-instruct,E3/primekg,macro_f1,0.1125706086350764,,,
+LLM,Phi-4-mini-instruct,C3/primekg,accuracy,0.15,0.118-0.182,,
+LLM,Phi-4-mini-instruct,C3/primekg,macro_f1,0.1234979806926419,,,
+LLM,Phi-4-mini-instruct,E4/primekg,accuracy,0.456,0.412-0.500,,
+LLM,Phi-4-mini-instruct,E4/primekg,macro_f1,0.4185689953211207,,,
+LLM,Phi-4-mini-instruct,C4/primekg,accuracy,0.478,0.434-0.522,,
+LLM,Phi-4-mini-instruct,C4/primekg,macro_f1,0.43692241564581985,,,
+LLM comparison,Phi-4-mini-instruct,Abstract benefit: E1 -> E2,accuracy difference,0.294,+0.248 to +0.338,,4.029970997975849e-35
+LLM comparison,Phi-4-mini-instruct,UMLS facts without abstract: E1 -> E3,accuracy difference,-0.018,-0.036 to -0.002,0.2542724609375,0.063568115234375
+LLM comparison,Phi-4-mini-instruct,UMLS relevant vs control: C3 -> E3,accuracy difference,0.0,-0.012 to +0.012,1.0,1.0
+LLM comparison,Phi-4-mini-instruct,UMLS facts with abstract: E2 -> E4,accuracy difference,0.006,-0.010 to +0.024,1.0,0.629058837890625
+LLM comparison,Phi-4-mini-instruct,UMLS relevant vs control: C4 -> E4,accuracy difference,-0.01,-0.024 to +0.004,0.800537109375,0.266845703125
+LLM comparison,Phi-4-mini-instruct,PrimeKG facts without abstract: E1 -> E3,accuracy difference,-0.02,-0.036 to -0.006,0.038818359375,0.012939453125
+LLM comparison,Phi-4-mini-instruct,PrimeKG relevant vs control: C3 -> E3,accuracy difference,-0.01,-0.020 to +0.000,0.25,0.125
+LLM comparison,Phi-4-mini-instruct,PrimeKG facts with abstract: E2 -> E4,accuracy difference,0.002,-0.008 to +0.012,1.0,1.0
+LLM comparison,Phi-4-mini-instruct,PrimeKG relevant vs control: C4 -> E4,accuracy difference,-0.022,-0.036 to -0.010,0.00390625,0.0009765625
+LLM comparison,Phi-4-mini-instruct,UMLS vs PrimeKG: E3,accuracy difference,0.002,-0.012 to +0.016,1.0,1.0
+LLM comparison,Phi-4-mini-instruct,UMLS vs PrimeKG: C3,accuracy difference,-0.008,-0.022 to +0.006,1.0,0.3876953125
+LLM comparison,Phi-4-mini-instruct,UMLS vs PrimeKG: E4,accuracy difference,0.004,-0.010 to +0.018,1.0,0.79052734375
+LLM comparison,Phi-4-mini-instruct,UMLS vs PrimeKG: C4,accuracy difference,-0.008,-0.020 to +0.002,1.0,0.2890625
+classical ML,logreg,A,macro_f1 (mean of 15 folds),0.3818984694066695,,,
+classical ML,logreg,B,macro_f1 (mean of 15 folds),0.3850789109259912,,,
+classical ML,logreg,B-ent,macro_f1 (mean of 15 folds),0.39095179559678334,,,
+classical ML,logreg,B-rel,macro_f1 (mean of 15 folds),0.38036135398261034,,,
+classical ML,logreg,B-str,macro_f1 (mean of 15 folds),0.4046390590820574,,,
+classical ML,logreg,C,macro_f1 (mean of 15 folds),0.36885823610801,,,
+classical ML,logreg,C-ent,macro_f1 (mean of 15 folds),0.37633314099773985,,,
+classical ML,logreg,C-rel,macro_f1 (mean of 15 folds),0.3564093291860108,,,
+classical ML,logreg,C-str,macro_f1 (mean of 15 folds),0.3748678064274121,,,
+classical ML,logreg,KGP,macro_f1 (mean of 15 folds),0.23326949850453868,,,
+classical ML,logreg,KGU,macro_f1 (mean of 15 folds),0.29061084875874005,,,
+classical ML,rf,A,macro_f1 (mean of 15 folds),0.34260057302156816,,,
+classical ML,rf,B,macro_f1 (mean of 15 folds),0.3342104135430256,,,
+classical ML,rf,C,macro_f1 (mean of 15 folds),0.3363267392608767,,,
+classical ML,rf,KGP,macro_f1 (mean of 15 folds),0.28798444714960575,,,
+classical ML,rf,KGU,macro_f1 (mean of 15 folds),0.33843031931410533,,,
+classical ML,xgb,A,macro_f1 (mean of 15 folds),0.3433619555249377,,,
+classical ML,xgb,B,macro_f1 (mean of 15 folds),0.3586928202296174,,,
+classical ML,xgb,C,macro_f1 (mean of 15 folds),0.3509089795217007,,,
+classical ML,xgb,KGP,macro_f1 (mean of 15 folds),0.28538887880495195,,,
+classical ML,xgb,KGU,macro_f1 (mean of 15 folds),0.33587886486828666,,,
+classical ML comparison,logreg,B - A,macro_f1 difference,0.0031804415193218195,-0.050 to +0.056,1.0,
+classical ML comparison,logreg,C - A,macro_f1 difference,-0.013040233298659472,-0.053 to +0.027,1.0,
+classical ML comparison,rf,B - A,macro_f1 difference,-0.00839015947854263,-0.045 to +0.029,1.0,
+classical ML comparison,rf,C - A,macro_f1 difference,-0.006273833760691479,-0.037 to +0.025,1.0,
+classical ML comparison,xgb,B - A,macro_f1 difference,0.015330864704679663,-0.025 to +0.055,1.0,
+classical ML comparison,xgb,C - A,macro_f1 difference,0.0075470239967630245,-0.023 to +0.038,1.0,
+"relevance audit (AI, preliminary)",,primekg,% directly relevant,0.6,0.0-2.0,,
+"relevance audit (AI, preliminary)",,primekg,% indirectly relevant,89.1,83.8-93.8,,
+"relevance audit (AI, preliminary)",,primekg,% redundant,1.9,0.0-4.1,,
+"relevance audit (AI, preliminary)",,primekg,% incorrect entity link,0.0,0.0-0.0,,
+"relevance audit (AI, preliminary)",,primekg,% incorrect/misleading relationship,8.3,3.8-14.0,,
+"relevance audit (AI, preliminary)",,primekg,% cannot determine,0.0,0.0-0.0,,
+"relevance audit (AI, preliminary)",,umls,% directly relevant,0.0,0.0-0.0,,
+"relevance audit (AI, preliminary)",,umls,% indirectly relevant,77.5,68.1-86.3,,
+"relevance audit (AI, preliminary)",,umls,% redundant,13.1,6.8-20.3,,
+"relevance audit (AI, preliminary)",,umls,% incorrect entity link,5.2,0.9-10.5,,
+"relevance audit (AI, preliminary)",,umls,% incorrect/misleading relationship,4.2,0.9-8.4,,
+"relevance audit (AI, preliminary)",,umls,% cannot determine,0.0,0.0-0.0,,
