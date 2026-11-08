@@ -138,7 +138,19 @@ Do not upload or redistribute:
 
 These restrictions also apply to public GitHub repositories. A private repository does not automatically grant permission to redistribute licensed data.
 
-Each user intending to reproduce the UMLS experiments must obtain their own appropriate access and comply with the licence.
+Each user intending to reproduce the UMLS experiments must obtain their own appropriate access and comply with the licence. This was stated in the UMLS guidelines.
+
+### Why UMLS Data and Derived Results Are Not Included
+
+This project uses the UMLS Metathesaurus as one of its biomedical knowledge sources. UMLS is a licensed resource provided by the U.S. National Library of Medicine (NLM). Access requires registration and acceptance of the applicable licence terms.
+
+For this reason, the repository does not include the downloaded UMLS files or raw UMLS-derived data, such as extracted concept relationships, synonym mappings, or retrieved fact text. We have kept these materials out of the public repository to avoid redistributing licensed content without confirming that such redistribution is permitted by the applicable licence.
+
+The exclusion of UMLS-derived materials does **not** mean that the UMLS experiments were not conducted. UMLS was used in the knowledge graph construction, retrieval and evaluation stages of the project. The corresponding experimental results are discussed in the project report and presentation.
+
+Where appropriate, the repository may include aggregate evaluation metrics, comparison tables and figures that do not expose restricted UMLS content. Users wishing to reproduce the UMLS experiments must obtain the resource independently from the official NLM source and comply with its licence requirements.
+
+**Official source:** [UMLS Knowledge Sources](https://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html)
 
 ## 4. Local Environment Setup
 
